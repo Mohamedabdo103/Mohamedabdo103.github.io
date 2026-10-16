@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Mohamed Abdo | AI Developer &amp; Software Engineer</title>
+    <meta
+      name="description"
+      content="Mohamed Abdo, Software Engineer and AI developer specializing in computer vision. First place nationwide at Digitopia 2025 (AI &amp; Software Solutions track)."
+    />
+    <meta property="og:title" content="Mohamed Abdo | AI Developer &amp; Software Engineer" />
+    <meta
+      property="og:description"
+      content="First place nationwide at Digitopia 2025. Computer vision, Python and C."
+    />
+    
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="theme-color" content="#222831" />
+    <link rel="canonical" href="https://mohamedabdo103.github.io/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://mohamedabdo103.github.io/" />
+    <meta property="og:image" content="https://mohamedabdo103.github.io/assets/imgs/og-image.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo-container">
+        <img src="assets/imgs/logo.jpeg" alt="Mohamed Abdo logo" class="logo-img" />
+        <div class="logo-text">
+          <span class="logo-name">MOHAMED ABDO</span>
+          <span class="logo-title">DEVELOPER PORTFOLIO</span>
+        </div>
+      </a>
+
+      <nav class="navigation">
+        <ul>
+          <li><a href="#aboutMe">About</a></li>
+          <li><a href="#recognition">Awards</a></li>
+          <li><a href="#contactMe">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <hr />
+
+    <main>
+      <!-- بانر الدخول: مقطع الفيديو ثم صورة التكريم بالتناوب (slide) -->
+      <div class="heroMedia" aria-hidden="true">
+        <div class="slide slideVideo">
+          <video
+            muted
+            autoplay
+            playsinline
+            preload="auto"
+            poster="assets/imgs/tv-interview.webp"
+          >
+            <source src="assets/videos/hero-clip.mp4" type="video/mp4" />
+          </video>
+        </div>
+        <div class="slide slideImage">
+          <img src="assets/imgs/digitopia-award.webp" alt="" />
+        </div>
+      </div>
+
+      <section class="hero">
+        <img class="arrow" src="assets/svg/arrow.svg" alt="" aria-hidden="true" />
+        <div class="heroSub">
+          <h1 class="name">I’m Mohamed Abdo</h1>
+          <p class="title">Software Engineer</p>
+          <p class="heroTagline">
+            AI developer building computer vision systems. First place
+            nationwide at Digitopia 2025, honored by Egypt’s Minister of
+            Communications and IT.
+          </p>
+          <div class="heroBtns">
+            <a class="hireMe" href="#contactMe">Hire me</a>
+            <a class="cv" href="assets/Mohamed_Abdo_AI_CV.pdf" download
+              >Download CV
+              <img src="assets/svg/download.svg" alt="" aria-hidden="true"
+            /></a>
+            <a class="textLink" href="#interview">Watch my TV interview</a>
+          </div>
+        </div>
+        <img src="assets/svg/Hero.svg" alt="hero image" class="heroImg" />
+      </section>
+
+      <section class="aboutMe" id="aboutMe">
+        <img
+          src="assets/svg/AboutMe.svg"
+          alt="aboutMe image"
+          class="aboutMeImg"
+        />
+        <div class="textContainer">
+          <div class="textTitle">
+            <h2 class="sectionHeading">
+              <span class="aboutName">About</span>
+              <span class="aboutTitle">me</span>
+            </h2>
+            <img src="assets/svg/lightbulb.svg" alt="" aria-hidden="true" class="light" />
+          </div>
+          <p class="aboutMePar">
+            Hey, I'm Mohamed, a Software Engineer and Experienced AI Developer
+            proficient in Python and C programming, with a strong background in
+            computer vision projects, including face detection, face landmarks,
+            head pose estimation, and eye tracking. Continuously advancing
+            skills through professional development courses.
+          </p>
+        </div>
+      </section>
+
+      <section class="recognition" id="recognition">
+        <h2 class="sectionHeading">
+          <span class="aboutName">Digitopia</span>
+          <span class="aboutTitle">2025</span>
+        </h2>
+
+        <div class="recognitionRow">
+          <figure class="awardPhoto">
+            <img
+              src="assets/imgs/digitopia-award.webp"
+              alt="Mohamed Abdo and his teammates holding the Digitopia 2025 first-place award with the Minister of Communications and IT"
+              loading="lazy"
+            />
+          </figure>
+
+          <div class="recognitionText">
+            <p>
+              My team took first place nationwide in the AI &amp; Software
+              Solutions track at Digitopia 2025,
+              <strong class="highlight"
+                >the biggest information technology competition in Egypt</strong
+              >.
+            </p>
+            <!-- TODO: أضف هنا اسم المشروع الفائز ودورك فيه والتقنيات المستخدمة -->
+            <ul class="stats">
+              <li>
+                <strong>1st place</strong>
+                <span>Nationwide, Digitopia 2025</span>
+              </li>
+              <li>
+                <strong>AI &amp; Software Solutions</strong>
+                <span>Competition track</span>
+              </li>
+              <li>
+                <strong>Honored by the Minister</strong>
+                <span>Ministry of Communications and IT</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="recognitionRow interviewRow" id="interview">
+          <div class="recognitionText">
+            <h3 class="sectionHeading">
+              <span class="aboutName">On national</span>
+              <span class="aboutTitle">TV</span>
+            </h3>
+            <p>
+              After the win, I spoke on TV about the competition and the work
+              behind it.
+            </p>
+          </div>
+          <div class="videoFrame">
+            <button
+              class="videoPoster"
+              type="button"
+              data-video="U_ybZCxreMA"
+              aria-label="Play the TV interview"
+            >
+              <img
+                src="assets/imgs/tv-interview.webp"
+                alt="Mohamed Abdo during his TV interview"
+                loading="lazy"
+              />
+              <span class="playIcon" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"></path></svg>
+              </span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="contactContainer" id="contactMe">
+        <div class="contactTitle">
+          <h2 class="sectionHeading">
+            <span class="aboutName">Contact</span>
+            <span class="aboutTitle">me</span>
+          </h2>
+        </div>
+        <div class="contact">
+          <div class="emailAndPhone">
+            <img src="assets/svg/Email.svg" alt="email logo" />
+            <a href="mailto:mohamedabdo962002@gmail.com"
+              ><h3>mohamedabdo962002@gmail.com</h3></a
+            >
+          </div>
+          <div class="emailAndPhone">
+            <img src="assets/svg/phone.svg" alt="phone logo" />
+            <h3>+201023821588</h3>
+          </div>
+        </div>
+        <div class="socialMedia">
+          <a
+            href="https://www.linkedin.com/in/mohammedabdo9011/"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><img src="assets/svg/linkedin.svg" alt="my linkedin account"
+          /></a>
+          <a
+            href="https://github.com/Mohamedabdo103"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><img src="assets/svg/github.svg" alt="my github account"
+          /></a>
+          <a
+            href="https://www.facebook.com/profile.php?id=100036025421702&amp;mibextid=ZbWKwL"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="my facebook account"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#eeeeee" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+            </svg>
+          </a>
+        </div>
+      </section>
+    </main>
+    <hr />
+    <footer>
+      <p>Built by Mohamed Abdo</p>
+    </footer>
+
+    <script>
+      // ===== خلفية الـ Hero: فيديو ثم صورة ثم فيديو ... (sliding) =====
+      (() => {
+        const media = document.querySelector(".heroMedia");
+        if (!media) return;
+
+        const slideVideo = media.querySelector(".slideVideo");
+        const slideImage = media.querySelector(".slideImage");
+        const video = slideVideo.querySelector("video");
+        const IMAGE_HOLD_MS = 2000; // مدة ظهور الصورة قبل رجوع الفيديو
+        let timer;
+
+        // لو الفيديو مش شغال أو الزائر مفعّل "تقليل الحركة": الصورة بس
+        function showImageOnly() {
+          clearTimeout(timer);
+          video.pause();
+          slideVideo.hidden = true;
+          slideImage.style.visibility = "visible";
+        }
+
+        // slide: العنصر الجديد يدخل من اليمين والقديم يخرج لليسار
+        function slide(to, from) {
+
+          to.style.visibility = "visible";
+          from.style.visibility = "hidden";
+        }
+
+        function playVideo() {
+          video.currentTime = 0;
+          slide(slideVideo, slideImage);
+          video.play().catch(showImageOnly);
+        }
+
+        function showImage() {
+          slide(slideImage, slideVideo);
+          timer = setTimeout(playVideo, IMAGE_HOLD_MS);
+        }
+
+        if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+          showImageOnly();
+          return;
+        }
+
+        video.muted = true;
+        video.addEventListener("ended", showImage);
+        video.addEventListener("error", showImageOnly);
+        video
+          .querySelector("source")
+          .addEventListener("error", showImageOnly);
+        video.play().catch(showImageOnly);
+      })();
+
+      // ===== فيديو اللقاء: بيتحمل من يوتيوب بس لما الزائر يضغط Play =====
+      document.querySelectorAll(".videoPoster").forEach((btn) => {
+        btn.addEventListener("click", () => {
+          const iframe = document.createElement("iframe");
+          iframe.src =
+            "https://www.youtube-nocookie.com/embed/" +
+            btn.dataset.video +
+            "?autoplay=1&rel=0";
+          iframe.title = "Mohamed Abdo TV interview";
+          iframe.allow =
+            "autoplay; encrypted-media; picture-in-picture; fullscreen";
+          iframe.allowFullscreen = true;
+          btn.replaceWith(iframe);
+        });
+      });
+    </script>
+  </body>
+</html>
